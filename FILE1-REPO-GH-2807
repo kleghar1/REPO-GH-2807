@@ -5,5 +5,7 @@ sir, thanks for sending me the text .. noted ... messge from GIT-DESKTOP
 CAN YOU COMPLETE THESE CONFIGURATIONS FOR ME:
 
 router ospf 1
-
+ network 1.1.1.0 0.0.0.255 are 1
+ netowrk 10.0.12.0 0.0.0.255 are 0
+!
 add network statemetns
