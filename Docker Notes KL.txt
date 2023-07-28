@@ -1,0 +1,23 @@
+docker push kleghar1/docker-repo-1607:ostws
+
+
+
+
+
+docker commit <containr-id>		# can be found from "docker ps"
+
+create repo on docker hub
+
+docker tag <image-id> <repo-name-created-on-dockerhub> # docker images to get image id, that we have commited
+docker tag kleghar1/docker-repo-1607 ostwstest
+
+docker login
+
+docker push <name of image>
+docker push kleghar1/docker-repo-1607:2
+
+----
+
+docker pull kleghar1/docker-repo-1607:2
+
+
